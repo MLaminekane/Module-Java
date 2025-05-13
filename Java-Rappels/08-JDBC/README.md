@@ -341,7 +341,7 @@ public class JdbcMetaDataExample {
 
 ## Pool de connexions
 
-L'utilisation d'un pool de connexions est recommandée pour les applications réelles. Voici un exemple avec HikariCP, une bibliothèque populaire pour la gestion de pool de connexions :
+L'utilisation d'un pool de connexions est recommandée pour les applications réelles. Voici un exemple avec HikariCP, une bibliothèque populaire pour l a gestion de pool de connexions :
 
 ### Ajouter la dépendance HikariCP
 
@@ -384,6 +384,7 @@ public class JdbcConnectionPoolExample {
 
     public static Connection getConnection() throws SQLException {
         return dataSource.getConnection();
+    
     }
 
     public static void closeDataSource() {
